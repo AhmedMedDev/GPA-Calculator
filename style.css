@@ -1,0 +1,51 @@
+/*=============BASICS=============*/
+body{
+    font-family: 'Sora', sans-serif;
+/*    height: 3000px;*/
+}
+/*HEADER*/
+.header{
+    padding: 5% 0  ;
+    background-image: linear-gradient(180deg,#14213d 21%,#440d8b 100%)!important;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+.btn-success {
+    color: #fff !important;
+    background-color: #8dbf42;
+    border-color: #8dbf42;
+}
+ .btn-success:focus, .btn-success:hover {
+    background-color: #8dbf42 !important;
+    border-color: #8dbf42 !important;
+    box-shadow: #8dbf42 !important
+}
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+.btn-info {
+    color: #fff !important;
+    background-color: #2196f3;
+    border-color: #2196f3;
+}
+.btn-info:focus, .btn-info:hover {
+    background-color: #2196f3;
+    border-color: #2196f3;
+    box-shadow: #2196f3 !important
+}
+#accumulative{
+    display: none;
+}
+th, td {
+    color: white;
+}
+/*MEDIA HEADER*/
+@media(max-width:990px){
+
+}
+/*END HEADER*/
